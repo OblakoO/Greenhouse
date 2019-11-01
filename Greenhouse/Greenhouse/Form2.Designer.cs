@@ -66,7 +66,7 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Location = new System.Drawing.Point(261, 84);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(360, 519);
+            this.panel1.Size = new System.Drawing.Size(1048, 581);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -75,7 +75,7 @@
             this.textBox2.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(275, 12);
+            this.textBox2.Location = new System.Drawing.Point(261, 12);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(346, 17);
             this.textBox2.TabIndex = 3;
@@ -83,7 +83,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(32, 510);
+            this.button1.Location = new System.Drawing.Point(32, 571);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(172, 35);
             this.button1.TabIndex = 4;
@@ -93,7 +93,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(32, 568);
+            this.button2.Location = new System.Drawing.Point(32, 630);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(172, 35);
             this.button2.TabIndex = 5;
@@ -105,7 +105,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.ClientSize = new System.Drawing.Size(633, 615);
+            this.ClientSize = new System.Drawing.Size(1321, 677);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
