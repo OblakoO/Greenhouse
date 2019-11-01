@@ -53,7 +53,9 @@
             // 
             // listsPlan
             // 
-            this.listsPlan.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.listsPlan.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.listsPlan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.listsPlan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listsPlan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.listsPlan.FormattingEnabled = true;
             this.listsPlan.Location = new System.Drawing.Point(214, 140);
